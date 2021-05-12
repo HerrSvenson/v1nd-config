@@ -1,5 +1,1 @@
-spring:
-  datasource:
-    password: ''
-    url: jdbc:postgresql://localhost:5432/project
-    username: postgres
+
