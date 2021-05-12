@@ -8,5 +8,5 @@ eureka:
     hostname: localhost
     
 db_url: jdbc:postgresql://localhost:5432
-tentantid: ec1ae248-6fcc-43a1-bc2b-88d4fc3812270
+tentantid: ec1ae248-6fcc-43a1-bc2b-88d4fc381227
 
