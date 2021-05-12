@@ -7,6 +7,11 @@ eureka:
   instance:
     hostname: localhost
     
+#-------OWN PROPERTIES------#
+
+##--------DATABASE--------##
 postgresurl: jdbc:postgresql://localhost:5432
+
+##--------AZURE--------##
 tenantid: ec1ae248-6fcc-43a1-bc2b-88d4fc381227
 
