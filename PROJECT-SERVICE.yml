@@ -3,3 +3,9 @@ spring:
     password: ''
     url: jdbc:postgresql://localhost:5432/project
     username: postgres
+    
+security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://login.microsoftonline.com/ec1ae248-6fcc-43a1-bc2b-88d4fc381227/v2.0
