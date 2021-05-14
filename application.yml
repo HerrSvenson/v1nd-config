@@ -1,24 +1,24 @@
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true # Connect with EUREKA SERVER
+#    service-url:
+#      defaultZone: ${EUREKA_SERVER_ADDRESS}
+#  instance:
+#    preferIpAddress: true
+#    hostname: ${HOSTNAME}
+    
+
+#Use for local deployment
+
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true # Connect with EUREKA SERVER
     service-url:
-      defaultZone: ${EUREKA_SERVER_ADDRESS}
+      defaultZone: http://localhost:8761/eureka
   instance:
-    preferIpAddress: true
-    hostname: ${HOSTNAME}
-    
-
-#Use for local deployment
-
-#eureka:
- # client:
- #  register-with-eureka: true
- #  fetch-registry: true # Connect with EUREKA SERVER
- #  service-url:
-  #    defaultZone: http://localhost:8761/eureka
-  #instance:
-   # hostname: localhost
+    hostname: localhost
     
 #-------OWN PROPERTIES------#
 
