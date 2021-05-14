@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_SERVER_ADDRESS}
   instance:
-    hostname: ${HOSTNAME}.eureka
+    hostname: ${HOSTNAME}
     
 
 #Use for local deployment
