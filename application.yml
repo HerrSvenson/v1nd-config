@@ -23,7 +23,6 @@ eureka:
 #-------OWN PROPERTIES------#
 
 ##--------DATABASE--------##
-postgresurl: jdbc:postgresql://localhost:5432
 DB_HOST: localhost
 DB_NAME: v1nd
 POSTGRES_USER: postgres
