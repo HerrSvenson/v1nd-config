@@ -24,7 +24,10 @@ eureka:
 
 ##--------DATABASE--------##
 postgresurl: jdbc:postgresql://localhost:5432
+DB_HOST: localhost
+DB_NAME: v1nd
+POSTGRES_USER: postgres
 
 ##--------AZURE--------##
-tenantid: ec1ae248-6fcc-43a1-bc2b-88d4fc381227
+TENANT_ID: ec1ae248-6fcc-43a1-bc2b-88d4fc381227
 
